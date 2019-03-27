@@ -1,0 +1,19 @@
+{
+  "name": "hackatoon-cdmx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerlaTovarGarcia/hackarandas-Tutopia.git"
+  },
+  "author": "perla tovar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PerlaTovarGarcia/hackarandas-Tutopia/issues"
+  },
+  "homepage": "https://github.com/PerlaTovarGarcia/hackarandas-Tutopia#readme"
+}
