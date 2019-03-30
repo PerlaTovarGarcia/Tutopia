@@ -104,29 +104,29 @@ let pies=[];
          for(let k=0; k<cabeza.length; k++){
 
            if(cabeza[k]==='./cabeza/0.png'){
-             document.left.src = './fcabeza/0.png';
+             document.right.src = './fpies/0.png';
            }
 
            if(cabeza[k]==='./cabeza/1.png'){
-             document.left.src = './fcabeza/1.png';
+             document.right.src = './fpies/1.png';
            }
            if(cabeza[k]==='./cabeza/2.png'){
-             document.left.src = './fcabeza/2.png';
+             document.right.src = './fpies/2.png';
            }
            if(cabeza[k]==='./cabeza/3.png'){
-             document.left.src = './fcabeza/3.png';
+             document.right.src = './fpies/3.png';
            }
            if(cabeza[k]==='./cabeza/4.png'){
-             document.left.src = './fcabeza/4.png';
+             document.right.src = './fpies/4.png';
            }
            if(cabeza[k]==='./cabeza/5.png'){
-             document.left.src = './fcabeza/5.png';
+             document.right.src = './fpies/5.png';
            }
            if(cabeza[k]==='./cabeza/6.png'){
-             document.left.src = './fcabeza/6.png';
+             document.right.src = './fpies/6.png';
            }
            if(cabeza[k]==='./cabeza/7.png'){
-             document.left.src = './fcabeza/7.png';
+             document.right.src = './fpies/7.png';
            }
          }
 
@@ -163,29 +163,29 @@ let pies=[];
          for(let t=0; t<pies.length; t++){
 
            if(pies[t]==='./pies/0.png'){
-             document.right.src = './fpies/0.png';
+             document.left.src = './fcabeza/0.png';
            }
 
            if(pies[t]==='./pies/1.png'){
-             document.right.src = './fpies/1.png';
+             document.left.src = './fcabeza/1.png';
            }
            if(pies[t]==='./pies/2.png'){
-             document.right.src = './fpies/2.png';
+             document.left.src = './fcabeza/2.png';
            }
            if(pies[t]==='./pies/3.png'){
-             document.right.src = './fpies/3.png';
+             document.left.src = './fcabeza/3.png';
            }
            if(pies[t]==='./pies/4.png'){
-             document.right.src = './fpies/4.png';
+             document.left.src = './fcabeza/4.png';
            }
            if(cuerpo[t]==='./pies/5.png'){
-             document.right.src = './fpies/5.png';
+             document.left.src = './fcabeza/5.png';
            }
            if(pies[t]==='./pies/6.png'){
-             document.right.src = './fpies/6.png';
+             document.left.src = './fcabeza/6.png';
            }
            if(pies[t]==='./pies/7.png'){
-             document.right.src = './fpies/7.png';
+             document.left.src = './fcabeza/7.png';
            }
          }
 
