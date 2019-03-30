@@ -3,26 +3,34 @@
   <head>
     <meta charset="utf-8">
     <html lang="ja"><html lang="ja"><head>
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS"><meta http-equiv="Content-Script-Type" content="text/javascript"><title>Slot</title>
 
     <title></title>
 
   </head>
   <body>
-      <section>
-        <div>aqui va un video<div>
+        <header class="logo">
+          <img src="imagenes/logoB.png" alt="" width="25%">
+        </header>
+      <section class="video" id='gif'>
+        <img src="imagenes/gif.gif" alt="Funny image" width="65%">
+      </section>
+      <section class="btnInicio" id='btnInicio'>
+          <button type="button" id="play" class="play">Jugar</button>
+          <button type="button" id="seeMore" class="seeMore">Ver Más</button>
       </section>
 
 
-          <div class="content">
+          <div class="content" id="content">
                <table>
                  <tr>
-                    <td><img src = "./images/0.png" name = "up" width="100%"></td>
+                    <td><img src = "./cabeza/0.png" name = "up" width="100%"></td>
                  </tr>
                </table>
                <table>
                  <tr>
-                   <td><img src = "./cuerpos/0.png" name = "center" width="100%"></td>
+                   <td><img src = "./cuerpo/0.png" name = "center" width="100%"></td>
                  </tr>
                </table>
                <table>
@@ -32,6 +40,14 @@
                </table>
 
 
+
+               <table>
+               <tr>
+                 <td><img src = "./fcabeza/0.png" name = "left" width="100%" ></td>
+                 <td><img src = "./fcuerpo/0.png" name = "centerFrase" width="100%"></td>
+                 <td><img src = "./fpies/0.png" name = "right" width="100%"></td>
+               </tr>
+             </table>
                <form action="#">
                  <input type="button" value="Start" onclick=" slot();">
                 </form>
@@ -40,7 +56,12 @@
           <span id="all">
           </div>
 
+          <section class="personajes" id="personajes">
+            <img src="imagenes/gif.gif" alt="Funny image" width="70%" style="">
+          </section>
+
 
   <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="data.js"></script>
   </body>
 </html>

@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+}
+body{
+  background-image: url('imagenes/fondo-01.png');
+}
+.logo{
+    text-align: right;
+}
+
+.video{
+  margin-top: -1%;
+  text-align: center;
+}
+
+.personajes{
+  display: none;
+}
+
+.btnInicio{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.content{
+  display: none;
+}
